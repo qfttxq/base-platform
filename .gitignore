@@ -33,3 +33,5 @@ bp-user/\.mvn/
 bp-user/mvnw
 
 bp-user/mvnw\.cmd
+
+*.iml
