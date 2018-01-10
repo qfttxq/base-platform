@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.base</groupId>
-	<artifactId>base-register</artifactId>
+	<artifactId>bp-register</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>base-register</name>
+	<name>bp-register</name>
 	<description>服务注册中心</description>
 
 	<parent>
