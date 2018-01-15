@@ -1,7 +1,6 @@
 package com.base.repository;
 
 import com.base.entity.UserRole;
-import com.sun.org.apache.xpath.internal.operations.String;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
