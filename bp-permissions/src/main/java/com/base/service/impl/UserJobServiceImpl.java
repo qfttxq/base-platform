@@ -4,12 +4,14 @@ import com.base.entity.UserJob;
 import com.base.repository.UserJobRepository;
 import com.base.service.UserJobService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
  * Created by qfttx on 2018/1/11.
  */
+@Service
 public class UserJobServiceImpl implements UserJobService {
 
     @Autowired

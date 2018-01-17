@@ -23,14 +23,14 @@ public class MenuController {
     public Menu add(@RequestBody Menu menu){
         String id = UUID.randomUUID().toString();
         menu.setId(id);
-        return  menuService.add(menu);
+        return menuService.add(menu);
     }
     @RequestMapping("del")
     public void del(@RequestBody List<Menu> menus){
         menuService.del(menus);
     }
     @RequestMapping("update")
-    public void update(Menu menu){
+    public void update(@RequestBody Menu menu){
         menuService.update(menu);
     }
     @RequestMapping("query")

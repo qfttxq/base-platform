@@ -30,7 +30,7 @@ public class UserMenuController {
         userMenuService.del(userMenus);
     }
     @RequestMapping("update")
-    public void update(UserMenu userMenu){
+    public void update(@RequestBody UserMenu userMenu){
         userMenuService.update(userMenu);
     }
     @RequestMapping("query")

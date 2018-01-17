@@ -4,12 +4,14 @@ import com.base.entity.JobMenu;
 import com.base.repository.JobMenuRepository;
 import com.base.service.JobMenuService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
  * Created by qfttx on 2018/1/11.
  */
+@Service
 public class JobMenuServiceImpl implements JobMenuService {
 
     @Autowired

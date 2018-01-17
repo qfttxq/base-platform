@@ -4,12 +4,14 @@ import com.base.entity.Menu;
 import com.base.repository.MenuRepository;
 import com.base.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
  * Created by qfttx on 2018/1/11.
  */
+@Service
 public class MenuServiceImpl implements MenuService {
     @Autowired
     private MenuRepository menuRepository;

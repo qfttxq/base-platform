@@ -7,12 +7,14 @@ import com.base.repository.RoleMenuRepository;
 import com.base.service.MenuService;
 import com.base.service.RoleMenuService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
  * Created by qfttx on 2018/1/11.
  */
+@Service
 public class RoleMenuServiceImpl implements RoleMenuService {
 
     @Autowired
